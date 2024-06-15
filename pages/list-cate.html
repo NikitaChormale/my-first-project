@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Category</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./../css/index.css">
+    <link rel="stylesheet" href="./../css/list-cate.css">
+</head>
+<body  id="body">
+  <div class="container-fluid top-header">
+    <nav class="navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-4">
+            <a class="navbar-brand" href="#">
+              <img src="./../img/delivery-first.png">
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-2">
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./../index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./../pages/home.html">Pizza Details</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./../pages/list-cate.html">List Categary</a>
+               <li class="nav-item">
+                    <a class="nav-link" href="./../pages/contact.html">Contact Us</a>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./../pages/delivery.html">Our Services</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-6 ">
+            <img src="./../img/search-bar.png"class="img-seach">
+          
+<!--Dark-Light section starts-->
+<img src="./../img/dark-mode.png" class="theme-icon cart-img" id="img-dark " 
+onclick="darkMode()"/>
+
+<img src="./../img/light-mode-png "  class="theme-icon cart-img " id="img-light" 
+onclick="lightMode()"/>
+
+<!--Dark-Light section end-->
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+  <!--Dark-Light section starts-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col" >
+  <img src="./../img/dark-mode.png" class="theme-icon" id="img-dark" 
+  onclick="darkMode()"/>
+</div>
+  <div class="col">
+    <h1 class="heading text-success">Fertilizer</h1>
+  </div>
+  <div class="col">
+  <img src="./../img/light-mode-png "  class="theme-icon " id="img-light" 
+  onclick="lightMode()"/>
+</div>
+</div>
+</div>
+ <!--Dark-Light section end-->
+
+<div class="container-fluid main-section bg-color">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../img/burger.jpeg">
+            <h2>Burger</h2>
+            <p>19 Restaurants Products</p>
+            <h6>₹164.00 <del>₹249.00</del></h6>
+    <p class="fw-semibold" id="show-quantity3">1*164</p>
+    <p class="fw-semibold" id="show-total3"><b>Total price:₹164</b></p>
+      <div class="quantity-btn-container">
+          <img src="./../img/decreament.png" class="btn-increase" onclick="dec3()"/>
+        <span class="quan-text" id="quantity-text3">1</span>
+        <img src="./../img/increament.png" class="btn-increase" onclick="inc3()"/>
+      </div>
+      <button class="button "onclick="msg()">Order Now</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../img/pizza-palk.jpeg">
+            <h2>Burger</h2>
+            <p>19 Restaurants Products</p>
+            <h6>₹164.00 </h6>
+        <p class="fw-semibold" id="show-quantity" >1*164</p>
+        <p class="fw-semibold" id="show-total">Total price:₹164</p>
+        <div class="quantity-btn-container">
+          <img src="./../img/decreament.png" class="btn-increase" onclick="dec()"/>
+          <span class="quan-text" id="quantity-text">1</span>
+          <img src="./../img/increament.png" class="btn-increase" onclick="inc()"/>
+        </div>
+        <button class="button "onclick="msg()">Order Now</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../img/Shakes.jpeg">
+            <h2>Shakes</h2>
+            <p>9 Restaurants Products</p>
+            <h6>₹200.00</h6>
+         
+       <p class="fw-semibold" id="show-quantity2">1*200</p>
+        <p class="fw-semibold" id="show-total2"><b>Total price:₹200</b></p>
+        <div class="quantity-btn-container">
+            <img src="./../img/decreament.png" class="btn-increase" onclick="dec2()"/>
+          <span class="quan-text" id="quantity-text2">1</span>
+          <img src="./../img/increament.png" class="btn-increase" onclick="inc2()"/>
+        </div>
+        <button class="button "onclick="msg()">Order Now</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../img/burgr.jpeg">
+            <h2>Burger</h2>
+            <p>24 Restaurants Products</p>
+            <h6>₹340.00 <del>₹524.00</del></h6>
+                <p  class="fw-semibold"id="show-quantity4"><b>1*340</b></p>
+            <p  class="fw-semibold" id="show-total4"><b>Total price:₹340</b></p>
+            <div class="quantity-btn-container">
+                <img src="./../img/decreament.png" class="btn-increase" onclick="dec4()"/>
+              <span class="quan-text" id="quantity-text4">1</span>
+              <img src="./../img/increament.png" class="btn-increase" onclick="inc4()"/>
+            </div>
+            <button class="button "onclick="msg()">Order Now</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../img/burger 3.jpeg">
+            <h2>Pasta</h2>
+            <p>44 Restaurants Products</p>
+            <h6>₹199.00</h6>
+           <p class="fw-semibold" id="show-quantity6"><b>1*100</b></p>
+        <p class="fw-semibold" id="show-total6"><b>Total price:₹199</b></p>
+        <div class="quantity-btn-container">
+            <img src="./../img/decreament.png" class="btn-increase" onclick="dec6()"/>
+          <span class="quan-text" id="quantity-text6">1</span>
+          <img src="./../img/increament.png" class="btn-increase" onclick="inc6()"/>
+        </div>
+        <button class="button "onclick="msg()">Order Now</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../burger-mul.jpeg">
+            <h2>Pizza</h2>
+            <p>14 Restaurants Products</p>
+            <h6>₹220.00 </h6>
+      
+            <p class="fw-semibold" id="show-quantity7"><b>1*220</b></p>
+            <p  class="fw-semibold" id="show-total7"><b>Total price:₹229</b></p>
+            <div class="quantity-btn-container">
+                <img src="./../img/decreament.png" class="btn-increase" onclick="dec7()"/>
+              <span class="quan-text" id="quantity-text7">1</span>
+              <img src="./../img/increament.png" class="btn-increase" onclick="inc7()"/>
+          
+            </div>
+            <button class="button "onclick="msg()">Order Now</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../img/4burger-download.jpeg">
+            <h2>Pizza</h2>
+            <p>14 Restaurants Products</p>
+            <h6>₹251.00 </h6>
+            <p class="fw-semibold" id="show-quantity9"><b>1*251</b></p>
+            <p  class="fw-semibold" id="show-total9"><b>Total price:₹251</b></p>
+            <div class="quantity-btn-container">
+                <img src="./../img/decreament.png" class="btn-increase" onclick="dec9()"/>
+              <span class="quan-text" id="quantity-text9">1</span>
+              <img src="./../img/increament.png" class="btn-increase" onclick="inc9()"/>
+          </div>
+          <button class="button "onclick="msg()">Order Now</button>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="category-list">
+            <img src="./../img/burger.jpeg">
+            <h2>Pizza</h2>
+            <p>14 Restaurants Products</p>
+            <p class="fw-semibold" id="show-quantity3">1*164</p>
+    <p class="fw-semibold" id="show-total3"><b>Total price:₹164</b></p>
+      <div class="quantity-btn-container">
+          <img src="./../img/decreament.png" class="btn-increase" onclick="dec3()"/>
+        <span class="quan-text" id="quantity-text3">1</span>
+        <img src="./../img/increament.png" class="btn-increase" onclick="inc3()"/>
+      </div>
+      <button class="button "onclick="msg()">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!--Dark-Light section starts-->
+
+   <div class="container text-center">
+    <div class="row">
+      <div class="col" >
+  <img src="./../img/dark-mode.png" class="theme-icon" id="img-dark" 
+  onclick="darkMode()"/>
+</div>
+  <div class="col">
+  <img src="./../img/light-mode-png"  class="theme-icon " id="img-light" 
+  onclick="lightMode()"/>
+</div>
+</div>
+</div>
+ <!--Dark-Light section end-->
+
+  <!---------PRODUCT LIST PRODUCT LIST-------->
+  
+<div class="container-fluid  main-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="heading-section">
+          <h3>Our Top Sell</h3>
+          <h2>Checkout Our Top Sell Burger</h2>
+          <div class="heading-borders">
+            <span class="selected"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../img/Shakes.jpeg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../img/pizza1.jpeg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../img/pizza-mul2.jpeg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../img/mul-burger.jpeg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../img/img-mul3.jpg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../img/pizza-palk.jpeg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../burger-mul.jpeg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="famous-product">
+          <h2>BEEF</h2>
+          <h3>Bacon Cheese Burger</h3>
+          <img src="./../img/pizza-mul2.jpeg">
+          <div class="price">
+            <h4>$6.00 </h4>
+            <p>220gr/600cal</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="./../js/list.js"></script>
+
+</body>
+</html>
+
+1

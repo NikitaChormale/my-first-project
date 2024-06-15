@@ -1,4 +1,12 @@
 /********ADV ADV ADV *******/
+.category-list {
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px dotted #ffda86;
+	border: 1px dashed #ffda86;
+}
 .top-banner {
 	border: 1px solid #00000024;
 	padding: 30px 5px 30px 20px;
@@ -26,3 +34,49 @@
 	font-size: 15px;
 	color: black;
 }
+
+.quantity-btn-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 30px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	}
+	.btn-increase{
+		width: 50%;
+	padding:3px;
+	cursor: pointer;
+ 
+	}
+	.quan-text{
+	margin: auto 10px;
+	cursor: pointer;
+	font-size: 25px;
+	}
+.button{
+	margin-left: 50px;
+}
+.mode{
+	width: 20px;
+	}
+.theme-icon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: none;
+    background-color: white; 
+  }
+  .active-mode{
+    border: 1.5px solid;    
+  }
+  .theme-dark{
+    background-color: black;
+    color: white;
+  }
+  .theme-light{
+    background-color:white;
+    color: black;
+  }
