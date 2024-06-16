@@ -5,7 +5,7 @@
 body {
 	font-size: 14px;
 	color: rgb(235, 228, 228);
-	background: #d8d4cd;
+	background: #ddc08e;
 	font-family :Poppins, sans-serif;
 }
 .img-seach{
@@ -15,6 +15,10 @@ body {
 }
 .cart-img{
 	margin-left: 20px;
+	margin-top: 20px;
+}
+.img-del{
+	width: 40px;
 	margin-top: 20px;
 }
 .main-section {
@@ -282,41 +286,12 @@ nav .social-media a {
 		width: auto;
 	}
 }
-.quantity-btn-container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.theme-icon{
+	height: 30px;
+	width: 40px;
 	cursor: pointer;
-	width: 50px;
-	margin-left: 100px;
-	}
-	.btn-increase{
-		width: 50%;
-	padding:3px;
-	cursor: pointer;
-	}
-	.quan-text{
-	margin: auto 10px;
-	cursor: pointer;
-	font-size: 25px;
-	}
-
-	.theme-icon{
-		height: 30px;
-		width: 40px;
-		cursor: pointer;
-		padding: 10px;
-		border-radius: none;
-		background-color: white; 
-	  }
-	  .active-mode{
-		border: 1.5px solid;    
-	  }
-	  .theme-dark{
-		background-color: black;
-		color: black;
-	  }
-	  .theme-light{
-		background-color:white;
-		color: black;
-	  }
+	padding: 10px;
+	border-radius: none;
+	background-color: white;
+	margin-top: 30px;
+  }

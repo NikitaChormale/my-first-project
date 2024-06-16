@@ -89,7 +89,7 @@
 	margin-bottom: 20px;
 	font-size: 26px;
 	font-weight: 600;
-	color: #4e4e4e;
+	color: #1d1c1c;
 }
 .famous-product .price {
 	position: relative;
@@ -102,16 +102,7 @@
 	top: 5px;
 	right: 0px;
 }
-.famous-product .price i {
-	width: 50px;
-	height: 50px;
-	border: 1px solid;
-	font-size: 22px;
-	padding: 14px;
-	text-align: center;
-	border-radius: 50px;
-	color: tomato;
-}
+
 
 .quantity-btn-container{
 	display: flex;
@@ -130,6 +121,7 @@
 	margin: auto 10px;
 	cursor: pointer;
 	font-size: 25px;
+	color: black;
 	}
 
 	.theme-icon{
@@ -138,7 +130,8 @@
 		cursor: pointer;
 		padding: 10px;
 		border-radius: none;
-		background-color: white; 
+		background-color: white;
+		margin-top: 30px;
 	  }
 	  .active-mode{
 		border: 1.5px solid;    
@@ -151,4 +144,4 @@
 		background-color:white;
 		color: black;
 	  }
-	
+	  
