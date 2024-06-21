@@ -10,6 +10,33 @@ body {
 }
 .img-seach{
 	background-color: #d8d4cd;
+	width: 20px;
+	margin-bottom: 20px;
+	
+
+}
+.cart-img{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.img-del{
+	width: 40px;
+	margin-top: 20px;
+}
+
+
+/*****COMMON CSS SECTION*****/
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+body {
+	font-size: 14px;
+	color: rgb(235, 228, 228);
+	background: #ddc08e;
+	font-family :Poppins, sans-serif;
+}
+.img-seach{
+	background-color: #d8d4cd;
 	width: 40px;
 	margin-top: 30px;
 }
@@ -67,6 +94,56 @@ nav .social-media a {
 	float: right;
 	
 }
+@media screen and (max-width: 500px) {
+	.navbar-nav .nav-item {
+		margin-right: 15px;
+		
+	}
+	.img-seach{
+		background-color: #e0940f;
+		width: 20px;
+		margin-bottom: 20px;
+	}
+	.navbar-nav .nav-link {
+		font-weight: 300;
+		color: rgb(247, 244, 244);
+		font-size: 10px;
+	}
+	
+	.navbar-nav .nav-item {
+		margin-right: 15px;
+	}
+	.navbar-nav .nav-link {
+		font-weight: 500;
+		color: rgb(247, 244, 244);
+		font-size: 16px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		margin-left: 32px;
+		margin-top: 12px;
+	}
+	.nav-link {
+		margin-left: 10px !important;
+	}
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: left;
+	}
+	.fixed-top {
+		background: #1d1d1d;
+	}
+	nav .social-media a {
+		color: #fff;
+		font-size: 25px;
+		top: 15px;
+		position: relative;
+		margin-right: 30px;
+		float: right;
+		
+	}
+}
+	
+
+
 @media screen and (max-width:768px) {
 	.navbar-collapse {
 		position: absolute;
@@ -76,6 +153,7 @@ nav .social-media a {
 		top: 65px;
 		padding-left: 20px;
 		padding-bottom: 40px;
+		
 	}
 	.navbar-toggler {
 		float: right;
@@ -89,6 +167,14 @@ nav .social-media a {
 		top: 12px;
 		position: relative;
 		margin-right: 20px;
+	}
+	.navbar-nav .nav-item {
+		margin-right: 15px;
+		justify-content: left;
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+		justify-content: center;
 	}
 }
 /******** BANNER SECTION BANNER SECTION*******/

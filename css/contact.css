@@ -98,6 +98,9 @@ h6 {
     margin: 10px auto;
     color:black;
 }
+.details{
+    color: black;
+}
 
 @media screen and (max-width: 768px) {
     .heading{

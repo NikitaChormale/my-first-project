@@ -41,7 +41,7 @@
 	align-items: center;
 	cursor: pointer;
 	width: 30px;
-	margin-left: 50px;
+	margin-left: 80px;
 	margin-bottom: 20px;
 	}
 	.btn-increase{
@@ -54,6 +54,7 @@
 	margin: auto 10px;
 	cursor: pointer;
 	font-size: 25px;
+	color: black;
 	}
 .button{
 	margin-left: 50px;
