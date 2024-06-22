@@ -1,24 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
 
-body {
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 nav {
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
-
+.contitle{
+    color: black;
+}
 .heading {
     border-radius: 5px;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    color: white;
+    color: black;
     padding: 10px;
     font-family: "poppins", "sans-serif";
     margin-bottom: 30px;
@@ -28,7 +23,7 @@ nav {
 .container-1 {
     width: 80vw;
     height: 2200px;
-    background-color: white;
+    background:whitesmoke;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -116,6 +111,7 @@ h6 {
         width: 90vw;
         height: 1800px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background: #ddc08e;
 
     }
 

@@ -10,55 +10,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./../css/contact.css">
-    <link rel="stylesheet" href="./../css/index.css">
-    <link rel="stylesheet" href="./../js/contact.js">
+        <link rel="stylesheet" href="./../css/index.css">
+       
+    <link rel="stylesheet" href="./../css/contact.css"/>
+     <link rel="stylesheet" href="./../js/contact.js"/>
     <script src="../js/contact.js"></script>
-    <link rel="stylesheet" href="./../css/home.css">
+    <link rel="stylesheet" href="./../css/home.css"/>
     <script src="./../js/home.js"></script>
 </head>
 
 <body id="body">
-  <div class="container-fluid top-header">
-    <nav class="navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-4">
-            <a class="navbar-brand" href="#">
-              <img src="./../img/delivery-first.png" class="img-del">
-            </a>
-          </div>
-          <div class="col-lg-6 col-md-6 col-2">
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="./../index.html">Home Page</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./../pages/home.html">Pizza Details</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./../pages/list-cate.html">List Categary</a>
-               <li class="nav-item">
-                    <a class="nav-link" href="./../pages/contact.html">Contact Us</a>
-                  </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./../pages/delivery.html">Our Services</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-6 ">
-            
-          <!--Dark-Light section starts-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./../index.html">Home Page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./../pages/home.html">pizza details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./../pages/list-cate.html">List Categary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./../pages/contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="./../pages/delivery.html">Our Service</a>
+          </li>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown bg-dark">
+              <li><a class="dropdown-item" href="./../pages/home.html">pizza details</a></li>
+             <li><a class="dropdown-item" href="./../pages/list-cate.html">List Categary</a></li>
+              <li><a class="dropdown-item" href="./../pages/contact.html">Contact Us</a>
+              </li>
+              <li> <a class="dropdown-item" href="./../pages/delivery.html">Our Service</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+ 
+  <div class="container-1 rounded mx-auto" id="body1">
+    <div class="row">
+      <div class="col-sm-6 col-md-11 col-lg-6  mx-auto">
+          <form class="form">
+ <!--Dark-Light section starts-->
    <div class="container text-center">
     <div class="row">
       <div class="col" >
   <img src="./../img/dark-mode.png" class="theme-icon" id="img-dark" 
   onclick="darkMode()"/>
 </div>
-  
   <div class="col">
   <img src="./../img/light-mode-png "  class="theme-icon " id="img-light" 
   onclick="lightMode()"/>
@@ -66,33 +70,8 @@
 </div>
 </div>
  <!--Dark-Light section end-->
-          </div>
-        </div>
-      </div>
-    </nav>
-  
-  
-    <!--Dark-Light section starts-->
-  <div class="container text-center">
-    <div class="row">
-      <div class="col" >
-  <img src="./../img/dark-mode.png" class="theme-icon" id="img-dark" 
-  onclick="darkMode()"/>
-</div>
-  <div class="col">
-    <h1 class="text-center mt-4 heading text-success">Contact Us</h1>
-  </div>
-  <div class="col">
-  <img src="./../img/light-mode-png "  class="theme-icon " id="img-light" 
-  onclick="lightMode()"/>
-</div>
-</div>
-</div>
- <!--Dark-Light section end-->
-    <div class="container-1 rounded mx-auto" id="body1">
-        <div class="row">
-            <div class="col-sm-6 col-md-11 col-lg-6  mx-auto">
-                <form class="form">
+    
+        
                     <div class="timer card-text p-2 h2 m-3 border-2 rounded-3 border border-black  bg-body-tertiary rounded " id="clock">
                     </div>
                     <div class="mb-3">
@@ -134,7 +113,7 @@
                 
 
                     <h2 class="text-center">Find Us On Map</h2>
-                    <iframe src="https://www.google.com/maps/search/map/@18.4172494,74.3748962,12z?entry=ttu" width="100%" height="450" margin="20px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30280.243764098494!2d74.44187845307006!3d18.436925602217677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc3112e73dbdef9%3A0x3341fbee43cb4d27!2sPatas%2C%20Maharashtra%20412219!5e0!3m2!1sen!2sin!4v1719051228537!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
     </div>

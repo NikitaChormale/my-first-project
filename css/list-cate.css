@@ -21,6 +21,10 @@
 	color: #eca808;
 	margin: 0px;
 }
+.contitle{
+	color: black;
+	margin-top: 10px;
+}
 
 /*********HEADING SECTION HEADING*********/
 .heading-section {
@@ -59,6 +63,9 @@
 	}
 	.heading-borders span {
 		width: 8%;
+	}
+	.theme-icon{
+		margin-top:10px;
 	}
 }
 @media screen and (max-width:500px) {
@@ -131,7 +138,7 @@
 		padding: 10px;
 		border-radius: none;
 		background-color: white;
-		margin-top: 30px;
+	
 	  }
 	  .active-mode{
 		border: 1.5px solid;    
